@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+.conteiner{
+    width: 1250px;
+    margin: 0 auto;
+}
+.sec-one{ 
+    background-image: url(./img/main-bg.jpeg);
+    background-repeat: no-repeat;
+    /* height: 800px; */
+}
+.conteiner{
+    /* width: 1300px; */
+    margin: 0 auto;
+}
+.top-head{
+    background-color: #303030;
+}
+.logo{
+    width: 100px;
+}
+.logo img{
+    width: 100%;
+}
+.navbar{
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.row{
+    display: flex;
+}
+.col-30{
+    width: 30%;
+}
+.jcs{
+    justify-content: space-between;
+}
+.links ul li{
+    display: inline-block;
+    margin: 20px;
+}
+.links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 18px;
+}
+.icon{
+    color: white;
+    font-size: 30px;
+}
+.po-rel{
+    position: relative;
+}
+.sec-one-text{
+    margin: 100px 0 0 0;
+    padding: 80px 0;
+}
+.secspace{
+    padding: 100px;
+}
+.sec-one-pri-text{
+    padding: 50px 0;
+}
+.sec-one-pri-text h1{
+    font-size: 120px;
+    padding: 15px 0 0 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.sec-one-pri-text p{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+    width: 50%;
+    color: white;
+    font-family: 'Noto Sans JP', sans-serif;
+    opacity: 0.7;
+    line-height: 28px;
+}
+.sec-one-pri-text button{
+    font-size: 17px;
+    color: white;
+    background-color: #e8631c;
+    padding: 10px 50px;
+    border: none;
+}
+/* =======================================================Section-Two================================================== */
+.sec-two{
+    overflow: hidden;
+    background-color: #e8631c;
+    /* height: 800px; */
+}
+.sec-two-text h2{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+.sec-two-text p{
+    font-size: 30px;
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+.cart{
+    padding: 100px 0;
+}
+.cart-bg{
+    background-color: #303030
+}
+.cart img{
+    width: 100%;
+}
+.cart h2{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin: 10px 0;
+}
+.cart p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin: 10px 0;
+}
+.po-ab-img{
+    position: absolute;
+    left: -620px;
+    top: -450px;
+    /* z-index: 1; */
+}
+
+/* ===================================sec-3=========================================== */
+.sec-three{
+    background-color: #303030;
+    overflow: hidden;
+}
+.sec-three-text h2{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+.sec-three-text h3{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+.sec-three-text p{
+    font-size: 30px;
+    /* width: 70%; */
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+.cart h3{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin: 10px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.cart-two{
+    background-color: #e8631c;
+    margin: 0 auto;
+}
+.cart-two img{
+    width: 60%;
+    padding: 60px 40px;
+    display: block;
+    margin: 0 auto;
+}
+.cart-two p{
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}
+.cart-two button{
+    text-align: center;
+    font-size: 20px;
+    /* width: 150px; */
+    padding: 15px 100px;
+    border: none;
+    background-color: #303030;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.po-ab-img-one{
+    position: absolute;
+    left: -430px;
+    top: -525px;
+}
+.po-ab-img-two{
+    position: absolute;
+    right: -230px;
+    bottom: -540px;
+    overflow: visible;
+}
+/* ============================Sec4============================== */
+.sec-four{
+    background-color: #e8631c;
+    /* width: 1400px; */
+    margin: 0 auto;
+}
+.sec-four-text h1{
+    font-size: 50px;
+    color: white;
+    margin: 0 0 30px 0;
+}
+.sec-four-text{
+    padding: 100px 100px;
+}
+.col-50{
+    width: 50%;
+}
+
+.my-col-50-img img{
+    width: 100%;
+    display: block;
+}
+
+.sec-four-text p{
+    font-size: 25px;
+    color: white;
+    margin: 0 0 30px 0;
+}
+.sec-four-text button{
+    color: white;
+    font-size: 15px;
+    background-color: #303030;
+    padding: 13px 50px; 
+    border: none;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+/* ======================================SecFive==================================== */
+.sec-five{
+    background-color: #303030;
+    /* width: 1400px; */
+    margin: 0 auto;
+}
+.sec-five-text h2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 0 20px 0;
+}
+.sec-five-text p{
+    color: white;
+    font-size: 28px;
+    width: 650px;
+    margin: 0 auto;
+}
+.db h1{
+    font-size: 50px;
+    color: white;
+}
+.db span{
+    font-size: 25px;
+    color: white;
+}
+.db{
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
+/* ========================================Section-Six================================================ */
+.sec-six{
+    /* width: 1400px; */
+    margin: 0 auto;
+    background-image: url(./img/six.png);
+    background-repeat: no-repeat;
+    background-color: #738c7c;
+}
+.sec-six-text p{
+    color: white;
+    font-size: 30px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.p{
+    padding: 100px 0;
+}
+.sec-six-text h1{
+    font-size: 50px ;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0 ;
+} 
+.sec-six-text{
+    align-items: center;
+    padding: 100px 0 ;
+    width: 100%;
+    
+} 
+/* =============================================Section-Seven========================================== */
+.sec-seven{
+    /* width: 1400px; */
+    margin: 0 auto;
+    background-color: #e8631c;
+} 
+.sec-seven-text h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+.sec-seven-text p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+.input{
+    text-align: center;
+    padding: 50px 0;
+}
+.input input{
+    width: 400px;
+    padding: 15px 80px;
+    font-size: 20px;
+}
+.input button{
+    background-color: #303030;
+    color: white;
+    font-size: 20px;
+    padding: 17px 30px;
+    border: none;
+    width: 200px;
+    margin: 0 0 0 -5px;
+}
+/* ==============================================Section-Eight======================================= */
+.sec-eight{
+    /* width: 1400px; */
+    margin: 0 auto;
+    background-color: #303030; 
+}
+.sec-eight-text{
+    color: white;
+}
+.vv h1{
+    font-size: 30px;
+    margin: 50px 0 20px 0;
+}
+.vv p{
+    width: 200px;
+    margin: 10px 0 10px 0;
+}
+.nine{
+    margin: 30px 0 40px 0;
+}
+.nine h1{
+    margin: 20px 0 10px 0;
+}
+.nine ul li{
+    margin: 10px 0;
+    text-decoration: none;
+    display: flex;
+}
+.icon-one{
+    font-size: 30px;
+    margin: 15px 10px;
+}
